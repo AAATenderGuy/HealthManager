@@ -87,4 +87,3 @@ cmake -S . -B build -G Ninja -DCMAKE_PREFIX_PATH=E:/Qt/6.12.0/mingw_64
 cmake --build build
 ```
 
-> 注意：构建目录不要放在带中文的路径下，否则 CMake 配置会失败。
